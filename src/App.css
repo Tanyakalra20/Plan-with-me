@@ -1,0 +1,133 @@
+/* write your css here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Poppins:wght@300;700;900&family=Rubik:wght@700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+body{
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.title{
+    font-size :3rem;
+    margin: 6vh;
+    border: 7px dotted darkmagenta;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px ;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+     object-fit: cover;
+}
+
+.tour-info{
+    margin: 20px auto;
+ 
+}
+
+.tour-price{
+    color: #1faa59;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+    font-weight:bolder ;
+}
+.read-more{
+    color: #12b0e8;
+}
+.read-more:hover{
+    cursor: pointer;
+}
+.btn{
+ 
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #b4161b21;
+    cursor: pointer;
+}
+.btn:hover{
+color: white;
+background-color: red;
+transition: 0.2s;
+}
+.refresh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.refresh h2{
+    font-weight: 700;
+}
+.btn-refresh{
+    margin-top: 18x;
+    padding: 10px 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.btn-refresh:hover{
+background-color: white;
+color: black;
+}
